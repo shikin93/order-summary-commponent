@@ -31,7 +31,7 @@ body {
 .card {
   background-color: white;
   margin: auto;
-  border-radius: 0.5em;
+  border-radius: 1em;
   text-align: center;
   max-width: 21em;
   margin-top: 5em;
@@ -39,7 +39,7 @@ body {
 
 .card__illustration img {
   width: 100%;
-  border-radius: 0.5em 0.5em 0 0;
+  border-radius: 1em 1em 0 0;
 }
 
 .card__title,
@@ -55,7 +55,7 @@ body {
 .card__plan {
   background-color: var(--veryPaleBlue);
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   margin: 1.5em;
   padding: 1em;
@@ -64,6 +64,10 @@ body {
 
 .card__plan h2 {
   font-size: 1rem;
+}
+
+.card__plan--price {
+  margin: 0 3em 0 1em;
 }
 
 .card__plan--price p {
@@ -116,6 +120,10 @@ body {
   }
   .card__cta {
     margin: 0 2.5em;
+  }
+
+  .card__plan--price {
+    margin: 0 6em 0 1em;
   }
 }
 
