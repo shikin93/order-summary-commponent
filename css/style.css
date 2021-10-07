@@ -62,6 +62,10 @@ body {
   border-radius: 0.5em;
 }
 
+.card__plan h2 {
+  font-size: 1rem;
+}
+
 .card__plan--price p {
   color: var(--desaturatedBlue);
 }
